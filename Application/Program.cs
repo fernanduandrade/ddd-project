@@ -22,8 +22,6 @@ builder.Services.AddDbContext<PostgresContext>(options =>
     var password = "postgres";
     options.UseNpgsql($"Server={server};Port={port};Database={database};Uid={username};Pwd={password}", opt =>
     {
-        opt.CommandTimeout(180);
-        opt.EnableRetryOnFailure(5);
     });
 });
 //options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));

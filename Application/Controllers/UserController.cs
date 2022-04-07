@@ -23,7 +23,7 @@ namespace Application.Controllers
             if (user == null)
                 return NotFound();
 
-            return Execute(() => _baseService.Add<UserValidator>(user).id);
+            return Execute(() => _baseService.Add<UserValidator>(user));
         }
 
         [HttpPut]

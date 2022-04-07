@@ -9,20 +9,23 @@ namespace ApiTest.UserTest
 {
     public class UserTest
     {
-        [Fact]
+        [Fact(DisplayName="Criar um usuário e o id deve ser igual a 2")]
         public void CreateUserTest()
         {
             // Arrange Context
             var repository = new Mock<IBaseRepository<User>>().Object;
             var business = new BaseService<User>(repository);
-            User user = new User();
+            User user = new User()
+            {
+                Email = "onanduandrade@gmail.com",
+                Name = "Fernando",
+                Password = "123654",
+            };
 
             // Act
             user.SetId(2);
-            user.Name = "Fernando";
-            user.Email = "onanduandrade@gmail.com";
-            user.Password = "123654";
             var result = business.Add<UserValidator>(user);
+
             // Assert
             Assert.Equal(2, result.id);
         }

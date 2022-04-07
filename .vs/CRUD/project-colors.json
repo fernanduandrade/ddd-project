@@ -35,7 +35,12 @@
       "ProjectGuid": "199e5d5f-2f65-46c7-82ce-0e4217665318",
       "DisplayName": "Infra.CrossCutting",
       "ColorIndex": 5
+    },
+    "7afebd23-4be1-432f-83c5-0312cf2f3904": {
+      "ProjectGuid": "7afebd23-4be1-432f-83c5-0312cf2f3904",
+      "DisplayName": "ApiTest",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

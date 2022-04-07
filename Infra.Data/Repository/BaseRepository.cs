@@ -20,10 +20,10 @@ namespace Infra.Data.Repository
 
         public async Task<T> Insert(T obj)
         {
-            var entity = new User {  };
-            _postgresContext.Set<T>().Add(obj);
+            var entity = obj;
+            _postgresContext.Set<T>().Add(entity);
             await _postgresContext.SaveChangesAsync();
-            return obj;
+            return entity;
         }
 
         public async Task<T> Update(T obj)
