@@ -30,7 +30,12 @@
       "ProjectGuid": "dae9c252-c828-42f2-8800-e28b5a76c2ab",
       "DisplayName": "Application",
       "ColorIndex": 4
+    },
+    "199e5d5f-2f65-46c7-82ce-0e4217665318": {
+      "ProjectGuid": "199e5d5f-2f65-46c7-82ce-0e4217665318",
+      "DisplayName": "Infra.CrossCutting",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

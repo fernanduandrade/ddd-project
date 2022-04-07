@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernando\\Desktop\\CRUD\\Service\\Service.csproj": {}
+    "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Fernando\\Desktop\\CRUD\\Service\\Service.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\CRUD\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj"
+              "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj"
               }
             }
           }

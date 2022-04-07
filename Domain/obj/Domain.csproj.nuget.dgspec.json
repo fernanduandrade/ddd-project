@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",

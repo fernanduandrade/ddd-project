@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\CRUD\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
       "projectName": "Infra.CrossCutting",
-      "projectPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Infra.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Infra.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",

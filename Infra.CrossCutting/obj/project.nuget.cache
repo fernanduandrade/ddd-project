@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RO6wT5O+SpTsGLCHQsyxC6ouFT8xQGSJAfs08m52JAo0GYf5XXoc9ICFd5RuW6KdMDYdToS20NbHcsLpN1sG+Q==",
+  "dgSpecHash": "NZ6ZFMZ5vfoIwlj5vtJ8c+gNGnvqEsbGUGJzJu78kiNGgzEZ7ieA8eJHpIxp7AQB9dHnyKa9Xt+T31VxmEssBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fernando\\Desktop\\CRUD\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Fernando\\Desktop\\csharp-ddd\\Infra.CrossCutting\\Infra.CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
