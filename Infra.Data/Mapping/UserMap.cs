@@ -9,9 +9,9 @@ namespace Infra.Data.Mapping
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.ToTable("User");
-            builder.HasKey(prop => prop.id);
+            builder.HasKey(prop => prop.Id);
 
-            builder.Property(prop => prop.id)
+            builder.Property(prop => prop.Id)
                 .HasColumnName("id");
 
             builder.Property(prop => prop.Name)

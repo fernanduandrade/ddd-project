@@ -15,9 +15,9 @@ namespace ApiTest.UserTest
             // Arrange Context
             var repository = new Mock<IBaseRepository<User>>().Object;
             var business = new BaseService<User>(repository);
-            User user = new User()
+            var user = new User()
             {
-                id= 2,
+                Id= 2,
                 Email = "onanduandrade@gmail.com",
                 Name = "Fernando",
                 Password = "123654",
@@ -27,7 +27,7 @@ namespace ApiTest.UserTest
             var result = business.Add<UserValidator>(user);
 
             // Assert
-            Assert.Equal(2, result.id);
+            Assert.Equal(2, result.Id);
         }
     }
 }

@@ -36,7 +36,7 @@ namespace Application.Controllers
             Execute(() =>
             {
                 _baseService.Delete(id);
-                return true;
+                return Ok("Usuário deletado");
             });
 
             return new NoContentResult();

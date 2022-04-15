@@ -23,7 +23,7 @@ namespace Infra.Data.Repository
 
         public async Task<T> Update(T obj)
         {
-            var current = await _postgresContext.Set<T>().SingleOrDefaultAsync(x => x.id == obj.id);
+            var current = await _postgresContext.Set<T>().SingleOrDefaultAsync(x => x.Id == obj.Id);
             if (current == null)
                 return null;
 
