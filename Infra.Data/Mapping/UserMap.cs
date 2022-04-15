@@ -15,19 +15,19 @@ namespace Infra.Data.Mapping
                 .HasColumnName("id");
 
             builder.Property(prop => prop.Name)
-                .HasConversion(prop => prop.ToString(), prop => prop)
+                .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
                 .HasColumnName("Name")
                 .HasColumnType("varchar(100)");
 
             builder.Property(prop => prop.Email)
-                .HasConversion(prop => prop.ToString(), prop => prop)
+                .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
                 .HasColumnName("Email")
                 .HasColumnType("varchar(100)");
 
             builder.Property(prop => prop.Password)
-                .HasConversion(prop => prop.ToString(), prop => prop)
+                .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
                 .HasColumnName("Password")
                 .HasColumnType("varchar(100)");

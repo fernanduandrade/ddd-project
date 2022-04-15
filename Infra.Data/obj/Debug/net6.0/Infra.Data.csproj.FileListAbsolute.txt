@@ -18,7 +18,6 @@ C:\Users\Fernando\Desktop\CRUD\Infra.Data\obj\Debug\net6.0\Infra.Data.genruntime
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Infra.Data.deps.json
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Infra.Data.runtimeconfig.json
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Infra.Data.dll
-C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\ref\Infra.Data.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Infra.Data.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Domain.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\bin\Debug\net6.0\Domain.pdb
@@ -32,3 +31,4 @@ C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\obj\Debug\net6.0\Infra.Data.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\obj\Debug\net6.0\ref\Infra.Data.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\obj\Debug\net6.0\Infra.Data.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\obj\Debug\net6.0\Infra.Data.genruntimeconfig.cache
+C:\Users\Fernando\Desktop\csharp-ddd\Infra.Data\obj\Debug\net6.0\refint\Infra.Data.dll

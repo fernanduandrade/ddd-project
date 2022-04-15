@@ -12,7 +12,6 @@ C:\Users\Fernando\Desktop\CRUD\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\Fernando\Desktop\CRUD\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\bin\Debug\net6.0\Domain.deps.json
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\bin\Debug\net6.0\Domain.dll
-C:\Users\Fernando\Desktop\csharp-ddd\Domain\bin\Debug\net6.0\ref\Domain.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\bin\Debug\net6.0\Domain.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@ C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\Domain.csproj.CoreC
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\Domain.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Fernando\Desktop\csharp-ddd\Domain\obj\Debug\net6.0\refint\Domain.dll

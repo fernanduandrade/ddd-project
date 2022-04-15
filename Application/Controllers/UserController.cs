@@ -2,15 +2,13 @@
 using Domain.Interfaces;
 using Service.Validators;
 using Microsoft.AspNetCore.Mvc;
-using System;
-
 namespace Application.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
-        private IBaseService<User> _baseService;
+        private readonly IBaseService<User> _baseService;
 
         public UserController(IBaseService<User> baseService)
         {
@@ -20,22 +18,16 @@ namespace Application.Controllers
         [HttpPost]
         public IActionResult Create([FromBody]User user)
         {
-            if (user == null)
-                return NotFound();
-
             return Execute(() => _baseService.Add<UserValidator>(user));
         }
 
         [HttpPut]
         public IActionResult Update([FromBody]User user)
         {
-            if (user == null)
-                return NotFound();
-
             return Execute(() => _baseService.Update<UserValidator>(user));
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
         {
             if(id == 0)
@@ -56,7 +48,7 @@ namespace Application.Controllers
             return Execute(() => _baseService.GetAll());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public IActionResult Get(int id)
         {
             return Execute(() => _baseService.GetById(id));

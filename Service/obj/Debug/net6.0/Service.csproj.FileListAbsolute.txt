@@ -15,7 +15,6 @@ C:\Users\Fernando\Desktop\CRUD\Service\obj\Debug\net6.0\ref\Service.dll
 C:\Users\Fernando\Desktop\CRUD\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\Service.deps.json
 C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\Service.dll
-C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\ref\Service.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\Service.pdb
 C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\Domain.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Service\bin\Debug\net6.0\Domain.pdb
@@ -28,3 +27,4 @@ C:\Users\Fernando\Desktop\csharp-ddd\Service\obj\Debug\net6.0\Service.csproj.Cop
 C:\Users\Fernando\Desktop\csharp-ddd\Service\obj\Debug\net6.0\Service.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Service\obj\Debug\net6.0\ref\Service.dll
 C:\Users\Fernando\Desktop\csharp-ddd\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\Fernando\Desktop\csharp-ddd\Service\obj\Debug\net6.0\refint\Service.dll

@@ -17,13 +17,13 @@ namespace ApiTest.UserTest
             var business = new BaseService<User>(repository);
             User user = new User()
             {
+                id= 2,
                 Email = "onanduandrade@gmail.com",
                 Name = "Fernando",
                 Password = "123654",
             };
 
             // Act
-            user.SetId(2);
             var result = business.Add<UserValidator>(user);
 
             // Assert
