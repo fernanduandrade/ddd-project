@@ -4,12 +4,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infra.Data.Mapping
 {
-    public class UserMap : IEntityTypeConfiguration<User>
+    public class UserMap : IEntityTypeConfiguration<Users>
     {
-        public void Configure(EntityTypeBuilder<User> builder)
+        public void Configure(EntityTypeBuilder<Users> builder)
         {
-            builder.ToTable("User");
-            builder.HasKey(prop => prop.Id);
+            builder.ToTable("users");
 
             builder.Property(prop => prop.Id)
                 .HasColumnName("id");
@@ -17,19 +16,19 @@ namespace Infra.Data.Mapping
             builder.Property(prop => prop.Name)
                 .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
-                .HasColumnName("Name")
+                .HasColumnName("name")
                 .HasColumnType("varchar(100)");
 
             builder.Property(prop => prop.Email)
                 .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
-                .HasColumnName("Email")
+                .HasColumnName("email")
                 .HasColumnType("varchar(100)");
 
             builder.Property(prop => prop.Password)
                 .HasConversion(prop => prop, prop => prop)
                 .IsRequired()
-                .HasColumnName("Password")
+                .HasColumnName("password")
                 .HasColumnType("varchar(100)");
         }
     }
