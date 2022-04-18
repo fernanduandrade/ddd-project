@@ -8,21 +8,21 @@ namespace Application.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IBaseService<User> _baseService;
+        private readonly IBaseService<Users> _baseService;
 
-        public UserController(IBaseService<User> baseService)
+        public UserController(IBaseService<Users> baseService)
         {
             _baseService = baseService;
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody]User user)
+        public IActionResult Create([FromBody]Users user)
         {
             return Execute(() => _baseService.Add<UserValidator>(user));
         }
 
         [HttpPut]
-        public IActionResult Update([FromBody]User user)
+        public IActionResult Update([FromBody]Users user)
         {
             return Execute(() => _baseService.Update<UserValidator>(user));
         }

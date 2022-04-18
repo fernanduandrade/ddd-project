@@ -20,16 +20,14 @@ builder.Services.AddDbContext<PostgresContext>(options =>
     var database = "CRUDS";
     var username = "postgres";
     var password = "postgres";
-    options.UseNpgsql($"Server={server};Port={port};Database={database};Uid={username};Pwd={password}", opt =>
+    // options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseNpgsql($"Server={server};Port={port};Database={database};User Id={username};Password={password}", opt =>
     {
     });
 });
-//options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddDbContext<PostgresContext>();
-builder.Services.AddScoped<IBaseRepository<User>, BaseRepository<User>>();
-builder.Services.AddScoped<IBaseService<User>, BaseService<User>>();
 
-
+builder.Services.AddScoped<IBaseRepository<Users>, BaseRepository<Users>>();
+builder.Services.AddScoped<IBaseService<Users>, BaseService<Users>>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

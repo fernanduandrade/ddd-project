@@ -13,9 +13,9 @@ namespace ApiTest.UserTest
         public void CreateUserTest()
         {
             // Arrange Context
-            var repository = new Mock<IBaseRepository<User>>().Object;
-            var business = new BaseService<User>(repository);
-            var user = new User()
+            var repository = new Mock<IBaseRepository<Users>>().Object;
+            var business = new BaseService<Users>(repository);
+            var user = new Users()
             {
                 Id= 2,
                 Email = "onanduandrade@gmail.com",
