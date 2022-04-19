@@ -17,6 +17,9 @@ namespace Infra.Data.Context
 
             modelBuilder.Entity<Users>(new UsersMap().Configure);
         }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            => optionsBuilder.LogTo(x => System.Diagnostics.Debug.WriteLine(x));
 
     }
 }

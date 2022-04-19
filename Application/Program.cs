@@ -20,10 +20,9 @@ builder.Services.AddDbContext<PostgresContext>(options =>
     var database = "CRUDS";
     var username = "postgres";
     var password = "postgres";
-    // options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
     options.UseNpgsql($"Server={server};Port={port};Database={database};User Id={username};Password={password}", opt =>
     {
-    });
+    }).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 
 builder.Services.AddScoped<IBaseRepository<Users>, BaseRepository<Users>>();
